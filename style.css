@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FAF9F6;
+}
+
+
+#odin {
+    width: 1920px;
+    height: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    position:relative;
+    width: 100vw;
+    height: 80px;
+    background-color: #e4e1e1;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+#logo {
+    float: left;
+    position:absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 70px;
+
+}
+
+.topnav a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    border: 2px solid white;
+    font-size: 15px;
+    padding: 14px 16px;
+    margin: 5px;
+}
+
+.topnav a:hover{
+    color: white;
+    border: 2px solid black;
+    
+}
+
+#big{
+    color: white;
+    position:absolute;
+    top: 25%;
+    left: 45%;
+}
